@@ -1,0 +1,55 @@
+@import url(./fonts.css);
+
+body {
+  background-image: url(./images/background-pattern-desktop.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-color: hsl(275, 100%, 97%);
+  height: 100vh;
+}
+
+.card {
+  padding: 20px;
+  border-radius: 14px;
+  width: 70%;
+}
+
+#cont {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+}
+
+h5:hover {
+  color: #ad28eb;
+  transition: all 0.5s ease;
+  cursor: pointer;
+}
+
+img {
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.hidden {
+  display: none;
+}
+
+.answer {
+  transition: all 0.5s ease;
+}
+
+.question {
+  transition: all 0.7s ease;
+}
+
+.hFiveColor {
+  color: black;
+}
+
+@media (max-width: 991px) {
+  .card {
+    width: 100%;
+  }
+}
